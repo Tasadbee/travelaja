@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 1180px;
+
+}
+.travel__box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 19px 0px;
+    align-items: center;
+    text-align: center;
+}
+.travel__title{
+    display: inline-flex;
+    padding: 10px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 33.18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+}
+.travel__list{
+    display: flex;
+    justify-content: space-between;
+}
+.travel__item{
+    list-style: none;
+}
+.travel__link{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+.travel__select__option{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.travel__select{
+    width: 16px;
+    height: 16px;
+}
+b{
+    color: #fff;
+}
+.hero{
+    padding-top: 150px;
+    height: 720px;
+    background-image: url(../pictures/explorebgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explore{
+    text-align: center;
+    align-items: center;
+}
+.explore__title{
+    color: #FFF;
+    text-align: center;
+    font-size: 47.78px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.explore__text{
+    width: 680px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    margin-left: 260px;
+}
+.explore__input__box{
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 780px;
+    margin-top: 80px;
+    height: 55px;
+    margin-left: 245px;
+    border-radius: 8px;
+}
+.explore__input{
+    width: 160px;
+    color: var(--title-color, #3D3E48);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    border: none;
+    padding-left: 2px;
+}
+.explore__input:nth-child(3){
+    border-left: 1px solid black;
+}
+
+.explore__input:nth-child(4){
+    border-left: 1px solid black;
+}
+.last__input{
+    display: flex;
+    justify-content: center;
+    background-color: #43B97F;
+    margin-right: 8px;
+    border-radius: 8px;
+    padding: 7px;
+}
+.last__input .explore__input{
+    background-color: #43B97F;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    border: 8px;
+}
+.dream{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+
+}
+.dream__box__img{
+    display: flex;
+    justify-content: space-between;
+}
+.dream__place__img1{
+    width: 274px;
+    height: 448px;
+    border-left: 10px;
+}
+.dream__place__img2{
+    width: 200px;
+    height: 332px;
+    margin-top: 100px;
+    margin-left: -20px;
+    border-left: 10px solid white;
+    border-radius: 97px;
+
+
+}
+.dream__place__img3{
+    width: 180px;
+    height: 311px;
+    border-left: 10px solid white;
+    border-radius: 97px;
+    margin-left: -20px;
+
+
+}
+.dream__box2{
+    margin-left: 30px;
+}
+.dream__title{
+    color:  #295943;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 180%; 
+}
+.dream__option{
+    color: #3D3E48;
+    font-size: 27.65px;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-top: 20px;
+}
+.dream__text{
+    margin-top: 20px;
+    color: #3D3E48;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%
+    
+}
+.lists__dream{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.dream__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.dream__item{
+    list-style: none;
+    margin-top: 25px;
+}
+.dream__b{
+    color:#295943;
+    font-size: 27.65px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.dream__item__text{
+    color: #3D3E48;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+}
